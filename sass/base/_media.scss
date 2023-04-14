@@ -2,6 +2,13 @@
 	.container {
 		width: 720px;
 	}
+	.advantages__main {
+		justify-content: space-around!important;
+		flex-wrap: wrap;
+	}
+	.advantages__item {
+		margin-top: 50px;
+	}
 }
 @media (max-width: 767px) {
 	.container {
@@ -61,6 +68,9 @@
 		width: 100%;
 		padding: 0 15px;
 	}
+	h2.title {
+		font-size: 24px;
+	}
 	.promo__wrapper {
 		align-items: flex-start!important;
 		margin-top: 60px!important;
@@ -92,5 +102,8 @@
 	.button_main {
 		width: 280px!important;
 		margin-top: 40px;
+	}
+	.advantages__main {
+		margin-top: 0!important;
 	}
 }

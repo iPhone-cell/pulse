@@ -7,6 +7,22 @@ body {
 	max-width: 950px;
 	margin: 0 auto;
 }
+h2, h3 {
+	color: #0d0d0d;
+}
+.title {
+	color: #0d0d0d;
+	font-size: 30px;
+	font-weight: 400;
+}
+.subtitle {
+	font-size: 18px;
+	font-weight: 400;
+}
+a {
+	transition: all 0.3s ease;
+}
 @import 'blocks/promo';
 @import 'blocks/header';
+@import 'blocks/advantages';
 @import 'blocks/buttons';
