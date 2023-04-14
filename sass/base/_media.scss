@@ -9,6 +9,9 @@
 	.advantages__item {
 		margin-top: 50px;
 	}
+	h2.consultation__title {
+		font-size: 32px;
+	}
 }
 @media (max-width: 767px) {
 	.container {
@@ -62,6 +65,9 @@
 			}	
 		}	
 	}
+	h2.consultation__title  {
+		font-size: 24px;
+	}
 }
 @media (max-width: 575px) {
 	.container {
@@ -105,5 +111,14 @@
 	}
 	.advantages__main {
 		margin-top: 0!important;
+	}
+	h2.consultation__title {
+		font-size: 16px;	
+	}
+	div.consultation__descr {
+		font-size: 14px;
+	}
+	form.feed-form {
+		width: 100%;
 	}
 }
