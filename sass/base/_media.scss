@@ -12,6 +12,18 @@
 	h2.consultation__title {
 		font-size: 32px;
 	}
+	.carousel__inner {
+		max-width: 600px;
+	}
+	.slick-slide img {
+		width: 100%;
+	}
+	.catalog__content {
+		justify-content: center!important;
+	}
+	.catalog-item {
+		margin: 0 20px;
+	}
 }
 @media (max-width: 767px) {
 	.container {
@@ -68,6 +80,13 @@
 	h2.consultation__title  {
 		font-size: 24px;
 	}
+	.carousel__inner {
+		max-width: 400px;
+	}
+	.slick-slide img {
+		width: 100%;
+		max-width: 400px;
+	}
 }
 @media (max-width: 575px) {
 	.container {
@@ -120,5 +139,42 @@
 	}
 	form.feed-form {
 		width: 100%;
+	}
+	.carousel__inner {
+		max-width: 200px;
+	}
+	.slick-slide img {
+		width: 100%;
+		max-width: 200px;
+	}
+	.carousel .slick-next img, .carousel .slick-prev img {
+		width: 24px!important;
+		height: 32px!important;
+	}
+	.carousel .slick-next {
+		right: -50px!important;
+	}
+	.carousel .slick-prev {
+		left: -50px!important;
+	}
+	.catalog__tabs {
+		flex-wrap: wrap;
+	}
+	.catalog__tab  {
+		margin-bottom: 20px!important;
+	}
+	.catalog-item__footer {
+		flex-direction: column;
+	}
+	.catalog-item__prices {
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	.reviews__item {
+		flex-direction: column;
+		text-align: center;
+		img {
+			margin: 0 auto 20px auto!important;
+		}
 	}
 }
