@@ -3,6 +3,12 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 }
+a {
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+}
 .container {
 	max-width: 950px;
 	margin: 0 auto;
@@ -33,3 +39,5 @@ a {
 @import 'blocks/carousel';
 @import 'blocks/catalog';
 @import 'blocks/reviews';
+@import 'blocks/footer';
+@import 'blocks/modal';
