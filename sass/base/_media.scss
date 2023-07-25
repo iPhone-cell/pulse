@@ -29,53 +29,21 @@
 	.container {
 		width: 540px;
 	}
-	.header__official, .header__contacts {
-		position: fixed;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center!important;
-		top: 0;
-		left: -100%;
-		width: 50%;
-		height: 100vh;
-		padding: 20px 15px;
-		background-color: rgba(0,0,0, .8);
-		transition: 0.6s all;
+	.header__phone {
+		font-size: 16px!important;
+		margin-bottom: 8px;
 	}
-	.menu_active, .menu_active {
-		left: 0!important;
-	}
-	.hamburger { 
-		display: block!important;
-		position: absolute;
-		right: 10px;
-		transform: translateY(-50%);
-		width: 26px;
-		height: 12px;
-		span{
-			display: block;
-			height: 2px;
-			width: 100%;
-			background-color: #fff;
-			margin-bottom: 2px;
-			transition: 0.5s all;
+	.header__official {
+		font-size: 11px!important;
+		span {
+			font-size: 14px!important;
 		}
-			
-		&_active {
-			span {
-				margin-bottom: -2px;
-				&:nth-child(1) {
-					transform: translateY(3px) rotate(-45deg);
-				}
-					
-				&:nth-child(2) {
-					display: none;
-				}
-				&:nth-child(3) {
-					transform: translateY(3px) rotate(45deg);
-				}
-			}	
-		}	
+	}
+	.header__logo {
+		width: 140px!important;
+	}
+	.header__contacts {
+		align-items: center!important;
 	}
 	h2.consultation__title  {
 		font-size: 24px;
@@ -111,13 +79,20 @@
 	h2.title {
 		font-size: 24px;
 	}
+	.header {
+		flex-direction: column;
+	}
+	.header__logo {
+		width: 200px!important;
+		margin-bottom: 16px;
+	}
+	.header__official {
+		margin-bottom: 16px;
+	}
 	.promo__wrapper {
 		align-items: flex-start!important;
 		margin-top: 60px!important;
 	} 
-	.header__official, .header__contacts {
-		width: 85%;
-	}
 	h1.promo__header {
 		font-size: 32px;
 	}
@@ -177,6 +152,9 @@
 	}
 	.catalog__tab  {
 		margin-bottom: 20px!important;
+	}
+	.catalog-item {
+		padding: 5px 2px!important;
 	}
 	.catalog-item__footer {
 		flex-direction: column;

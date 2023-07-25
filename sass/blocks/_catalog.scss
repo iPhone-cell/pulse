@@ -136,7 +136,11 @@
 				transform: translateX(-100%);
 				margin-left: 0px;
 			}
+			ul {
+				padding-left: 5px;
+			}
 			li {
+				list-style-type: none;
 				position: relative;
 				color: #555555;
 				font-size: 14px;

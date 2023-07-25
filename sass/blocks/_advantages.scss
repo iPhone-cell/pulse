@@ -12,8 +12,6 @@
 .advantages__item {
 	max-width: 247px;
 }
-.advantages__image {
-}
 .advantages__subtitle {
 	margin-top: 38px;
 }
@@ -25,5 +23,13 @@
 			&:hover {
 				opacity: 0.8;
 			}
+	}
+}
+.advantages__image {
+	&_animated {
+		animation: heartbeat 1.5s ease infinite;
+		&:hover {
+			animation-play-state: paused;
+		}
 	}
 }
